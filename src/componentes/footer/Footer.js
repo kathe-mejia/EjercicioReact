@@ -7,16 +7,14 @@ class Footer extends React.Component {
 
         return (
 
-            <
-            footer className = "container" >
-            <
-            p className = "float-right" > < a href = "#" > Subir < /a></p >
-            <
-            p > & copy; {
+            <footer className = "container" >
+            <p className = "float-right font-weight-bold"  > < a href = "#" > Subir < /a></p >
+            <p class="font-weight-bold">Esencia y bienestar plus - Medellín 
+            Versión  1 - {
                 (new Date().getFullYear())
             }
-            Mi Proyecto, Inc. & middot; < a href = "#" > Política de Privacidad < /a> &middot; <a href="#">Términos</a > < /p> < /
-            footer >
+             < /p> 
+            </footer>
 
         )
 

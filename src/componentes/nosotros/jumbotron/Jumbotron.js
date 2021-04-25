@@ -9,10 +9,15 @@ class Jumbotron extends React.Component {
         <div className="jumbotron">
             <div className="container">
                 <h1 className="display-3">Nosotros </h1>
-                <p>
-                    Somos una comunidad en donde fomentamos el conocimiento colectivo.
+                <p class="font-italic">
+                    Somos una marca 100% dedicada al cuidado personal de cuerpo y mente...
                     <br/>
-                    Solo de esta manera se formarán profesionales que cambien sus vidas y tengan un mejor futuro.
+                    Nuestra especialidad es la busqueda del equilibrio a través de aromas 
+                    esencias y velas para nuestros espacios. 
+                    <br/>
+                    Producimos de manera artesanal velas y esencias
+                    además puedes formarte en nuestros talleres para tener en constante armonia
+                    los espacios de tu hogar para el equilibro de cuerpo y mente
                 </p>
                 <p><a className="btn btn-primary btn-lg" href="https://www.signosmedia.com"target="_blank" role="button">Visitar Web</a></p>
             </div>

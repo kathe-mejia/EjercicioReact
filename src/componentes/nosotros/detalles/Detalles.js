@@ -10,18 +10,27 @@ class Detalles extends React.Component {
             <div className="row">
                 <div className="col-md-4">
                     <h2>Objetivo</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a className="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>
+                    <p class="font-italic">Crear e impulsar la paz y tranquilidad en los ambientes con el equilibrio, entre cuerpo y mente </p>
+                   {/*  <p><a className="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>*/}
+                   <img className="bd-placeholder-img rounded-circle" class="img-thumbnail mx-auto d-block" src={process.env.PUBLIC_URL + 'images/objetivo.jpg'} width="300" height="300">
+                </img>
                 </div>
                 <div className="col-md-4">
                     <h2>Misión</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a className="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>
+                    <p class="font-italic">Inspirar en las personas la cultura de construir espacios que mantengan nuestro ambiente en
+                        en completa armonia </p>
+                    {/*  <p><a className="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>*/}
+                    <img className="bd-placeholder-img rounded-circle" class="img-thumbnail mx-auto d-block" src={process.env.PUBLIC_URL + 'images/mision.jpg'} width="400" height="400">
+                </img>
                 </div>
                 <div className="col-md-4">
                     <h2>Visión</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo.</p>
-                    <p><a className="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>
+                    <p class="font-italic">Para el 2023 ser reconocidos como agentes de cambio en la mente para la vida en
+                        armonia de las personas
+                    </p>
+                     {/*  <p><a className="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>*/}
+                     <img className="bd-placeholder-img rounded-circle" class="img-thumbnail mx-auto d-block" src={process.env.PUBLIC_URL + 'images/vision.jpg'} width="300" height="300">
+                </img>
                 </div>
             </div>
  

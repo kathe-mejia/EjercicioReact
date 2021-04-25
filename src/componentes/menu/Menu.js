@@ -10,7 +10,7 @@ class Menu extends React.Component {
 
   		<nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
-		    <NavLink to="/" className="navbar-brand">Mi Proyecto</NavLink>
+		    <NavLink to="/" className="navbar-brand">Esencia y Bienestar Plus!</NavLink>
 		    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 		     	<span className="navbar-toggler-icon"></span>
 		    </button>
@@ -18,13 +18,16 @@ class Menu extends React.Component {
 			    <ul className="navbar-nav mr-auto">
 
 			        <li className="nav-item">
-			          	<NavLink to="/" className="nav-link">Home </NavLink>
+			          	<NavLink to="/" className="nav-link">Inicio </NavLink>
 			        </li>
 			        <li className="nav-item">
 			        	<NavLink to="/nosotros" className="nav-link">Nosotros</NavLink>
 			        </li>
 			        <li className="nav-item">
 			          	<NavLink to="/servicios" className="nav-link">Servicios</NavLink>
+			        </li>
+					<li className="nav-item">
+			          	<NavLink to="/listaprecios" className="nav-link">Planes</NavLink>
 			        </li>
 			        <li className="nav-item">
 			          	<NavLink to="/contacto" className="nav-link">Contacto </NavLink>

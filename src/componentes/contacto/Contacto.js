@@ -19,6 +19,7 @@ class Contacto extends React.Component {
 			<main role="main" className="flex-shrink-0 mt-5">
  
 				<div className="container">
+				<hr className="featurette-divider" />	
  
 					<h1 className="mb-5">Contacto</h1>
  
@@ -26,13 +27,13 @@ class Contacto extends React.Component {
  
             			<div className="col-md-6">
 		        
-							<Formulario /> <span>// Este Componente lo crearé a continuación </span>
+							<Formulario /> <span> </span>
  
 						</div>
  
 						<div className="col-md-6">
 		        
-							<Mapa /> <span>// Este Componente lo crearé a continuación </span>
+							<Mapa /> <span> </span>
  
 						</div>
  
