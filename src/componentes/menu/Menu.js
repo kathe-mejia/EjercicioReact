@@ -8,37 +8,32 @@ class Menu extends React.Component {
 
   	return (
 
-  		<nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-
-		    <NavLink to="/" className="navbar-brand">Esencia y Bienestar Plus!</NavLink>
+  		<nav className="navbar navbar-expand-md navbar-dark fixed-top "style={{backgroundColor: '#AED6F1'}}>
+			  <i class="fas fa-spa"></i>
+		    <NavLink to="/" className="navbar-brand text-dark"> &nbsp;Esencia y Bienestar Plus!</NavLink>
 		    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 		     	<span className="navbar-toggler-icon"></span>
 		    </button>
 		    <div className="collapse navbar-collapse" id="navbarCollapse">
-			    <ul className="navbar-nav mr-auto">
+			    <ul className="navbar-nav ml-auto">
 
 			        <li className="nav-item">
-			          	<NavLink to="/" className="nav-link">Inicio </NavLink>
+			          	<NavLink to="/" className="nav-link text-dark">Inicio </NavLink>
 			        </li>
 			        <li className="nav-item">
-			        	<NavLink to="/nosotros" className="nav-link">Nosotros</NavLink>
+			        	<NavLink to="/nosotros" className="nav-link text-dark">Nosotros</NavLink>
 			        </li>
 			        <li className="nav-item">
-			          	<NavLink to="/servicios" className="nav-link">Servicios</NavLink>
+			          	<NavLink to="/servicios" className="nav-link text-dark">Servicios</NavLink>
 			        </li>
-					<li className="nav-item">
+					{/*<li className="nav-item">
 			          	<NavLink to="/listaprecios" className="nav-link">Planes</NavLink>
-			        </li>
+			        </li>*/}
 			        <li className="nav-item">
-			          	<NavLink to="/contacto" className="nav-link">Contacto </NavLink>
+			          	<NavLink to="/contacto" className="nav-link text-dark">Contacto </NavLink>
 			        </li>
 
 			    </ul>
-
-			    <form className="form-inline mt-2 mt-md-0">
-			        <input className="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar"/>
-			        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-			    </form>
 		    </div>		    
 
 		</nav>

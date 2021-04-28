@@ -19,10 +19,14 @@ class Servicios extends React.Component {
  
 				<section className="text-center">
 				    <div className="container">
-				      <h1 className="jumbotron-heading">Servicios </h1>
-				      <p className="lead text-muted">
-				      	A continuación los servicios
-				      </p>				      
+					<hr className="featurette-divider" />
+					<hr className="featurette-divider" />
+					<i class="fas fa-praying-hands"></i>
+				      <h1 className="jumbotron-heading">Productos y Servicios </h1>
+					  <hr className="featurette-divider" />
+				      <h2 className="lead text-muted">
+				     	Estos son nuestros productos y servicios
+				      </h2>				      
 				    </div>
 				</section>
  
@@ -167,7 +171,97 @@ class Servicios extends React.Component {
 				            </div>
 				          </div>
 				        </div>
-				      </div>
+						<div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+				            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Servicio 10"><title>Servicio 10</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Servicio 10</text></svg>
+				            <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">
+				                <div className="btn-group">
+				                  <button type="button" className="btn btn-sm btn-outline-secondary">Leer</button>
+				                  
+				                </div>
+				                
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+						<div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+				            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Servicio 11"><title>Servicio 11</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Servicio 11</text></svg>
+				            <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">
+				                <div className="btn-group">
+				                  <button type="button" className="btn btn-sm btn-outline-secondary">Leer</button>
+				                  
+				                </div>
+				                
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+						<div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+				            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Servicio 12"><title>Servicio 12</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Servicio 12</text></svg>
+				            <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">
+				                <div className="btn-group">
+				                  <button type="button" className="btn btn-sm btn-outline-secondary">Leer</button>
+				                  
+				                </div>
+				                
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+						<div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+				            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Servicio 13"><title>Servicio 13</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Servicio 13</text></svg>
+				            <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">
+				                <div className="btn-group">
+				                  <button type="button" className="btn btn-sm btn-outline-secondary">Leer</button>
+				                  
+				                </div>
+				                
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+						<div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+				            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Servicio 14"><title>Servicio 14</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Servicio 14</text></svg>
+				            <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">
+				                <div className="btn-group">
+				                  <button type="button" className="btn btn-sm btn-outline-secondary">Leer</button>
+				                  
+				                </div>
+				                
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+						<div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+				            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Servicio 15"><title>Servicio 15</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Servicio 15</text></svg>
+				            <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">
+				                <div className="btn-group">
+				                  <button type="button" className="btn btn-sm btn-outline-secondary">Leer</button>
+				                  
+				                </div>
+				                
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+				      </div>{/* */}
 				    </div>
 				</div>
  

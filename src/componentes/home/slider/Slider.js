@@ -19,21 +19,21 @@ class Slider extends React.Component {
 		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/velaslider2.jpg'} width="1150" height="80" />
 		            <div className="elementos">
 					<hr className="featurette-divider" />
-		                <a className="btn btn-lg btn-primary" href="https://www.google.com.co" target="_blank" role="button">Leer más</a>
+		               
 		            </div>
 		        </div>
 		        <div className="carousel-item">
 		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/velaslider3.jpg'} width="1150" height="80" />
 		            <div className="elementos">
 					<hr className="featurette-divider" />
-		                <a className="btn btn-lg btn-primary" href="https://www.google.com.co" target="_blank" role="button">Leer más</a>
+		                
 		            </div>
 		        </div>
 		        <div className="carousel-item">
 		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/velaslider4.jpg'} width="1150" height="80"  />
 		            <div className="elementos">
 					<hr className="featurette-divider" />
-		                <a className="btn btn-lg btn-primary" href="www.google.com.co" target="_blank" role="button">Leer más</a>
+		              
 		            </div>
 		        </div>
 		    </div>

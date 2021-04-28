@@ -19,7 +19,7 @@ class Jumbotron extends React.Component {
                     además puedes formarte en nuestros talleres para tener en constante armonia
                     los espacios de tu hogar para el equilibro de cuerpo y mente
                 </p>
-                <p><a className="btn btn-primary btn-lg" href="https://www.signosmedia.com"target="_blank" role="button">Visitar Web</a></p>
+                <p><a className="btn btn-primary btn-lg" href="https://esenciadelbienestar.com/blog"target="_blank" role="button">Visitar Web</a></p>
             </div>
         </div>
  
