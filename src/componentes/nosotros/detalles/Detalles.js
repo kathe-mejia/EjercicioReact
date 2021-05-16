@@ -10,8 +10,10 @@ class Detalles extends React.Component {
             <div className="row">
                 <div className="col-md-4">
                     <h2>Objetivo</h2>
+                    
                     <p class="font-italic">Crear e impulsar la paz y tranquilidad en los ambientes con el equilibrio, entre cuerpo y mente </p>
                    {/*  <p><a className="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p>*/}
+                   <br/>                  
                    <img className="bd-placeholder-img rounded-circle" class="img-thumbnail mx-auto d-block" src={process.env.PUBLIC_URL + 'images/objetivo.jpg'} width="300" height="300">
                 </img>
                 </div>

@@ -28,7 +28,7 @@ class Nosotros extends React.Component {
 				
  
 	  		</main>
- 
+			  <hr className="featurette-divider" />
 	  		<Footer />
  
 	  		</>

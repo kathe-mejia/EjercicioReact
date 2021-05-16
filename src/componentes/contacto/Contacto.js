@@ -20,9 +20,13 @@ class Contacto extends React.Component {
  
 				<div className="container">
 				<hr className="featurette-divider" />	
- 
-					<h1 className="mb-5">Contacto</h1>
- 
+					
+					<h1 className="mb-5">Contáctanos</h1>
+					<h3 className="font-italic">Eres muy importante para nosotros...<br></br>
+					Nuestra comunidad 
+						puede seguir creciendo
+					</h3>
+					<br></br>
             		<div className="row">
  
             			<div className="col-md-6">
@@ -41,7 +45,7 @@ class Contacto extends React.Component {
 				</div>	
  
 	  		</main>
- 
+			  <hr className="featurette-divider" />
 	  		<Footer />
  
 	  		</>
