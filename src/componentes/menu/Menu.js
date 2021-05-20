@@ -26,9 +26,9 @@ class Menu extends React.Component {
 			        <li className="nav-item">
 			          	<NavLink to="/servicios" className="nav-link text-dark">Servicios</NavLink>
 			        </li>
-					{/*<li className="nav-item">
-			          	<NavLink to="/listaprecios" className="nav-link">Planes</NavLink>
-			        </li>*/}
+					<li className="nav-item">
+			          	<NavLink to="/Tarjeta" className="nav-link text-dark">Combitos</NavLink>
+			        </li>
 			        <li className="nav-item">
 			          	<NavLink to="/contacto" className="nav-link text-dark">Contacto </NavLink>
 			        </li>
