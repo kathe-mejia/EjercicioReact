@@ -16,7 +16,7 @@ function showAdditional(adicional) {
 function App() {
   return (
     <div className="wrapper">
-      <h1>Combos</h1>
+      <h1>Talleres</h1>
       {data.map(combo => (
         <Tarjeta adicional={combo.adicional}
           precio={combo.precio} key={combo.nombre} nombre={combo.nombre} descripcion={combo.descripcion} showAdditional={showAdditional}
