@@ -16,21 +16,21 @@ class Slider extends React.Component {
 		    <div className="carousel-inner" >
 		        <div className="carousel-item active">
 					{/*Cambiar imagenes, convertir la fuente en un objeto jsx*/}
-		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/velaslider2.jpg'} width="1150" height="80" />
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/slider1.jpg'} width="1150" height="80" />
 		            <div className="elementos">
 					<hr className="featurette-divider" />
 		               
 		            </div>
 		        </div>
 		        <div className="carousel-item">
-		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/velaslider3.jpg'} width="1150" height="80" />
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/slider2.jpg'} width="1150" height="80" />
 		            <div className="elementos">
 					<hr className="featurette-divider" />
 		                
 		            </div>
 		        </div>
 		        <div className="carousel-item">
-		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/velaslider4.jpg'} width="1150" height="80"  />
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/slider3.jpg'} width="1150" height="80"  />
 		            <div className="elementos">
 					<hr className="featurette-divider" />
 		              

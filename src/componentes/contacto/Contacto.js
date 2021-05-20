@@ -17,10 +17,10 @@ class Contacto extends React.Component {
 			<Menu />
  
 			<main role="main" className="flex-shrink-0 mt-5">
- 
+			
 				<div className="container">
 				<hr className="featurette-divider" />	
-					
+				<br></br>
 					<h1 className="mb-5">Contáctanos</h1>
 					<h3 className="font-italic">Eres muy importante para nosotros...<br></br>
 					Nuestra comunidad 

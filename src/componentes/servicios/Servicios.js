@@ -25,7 +25,7 @@ class Servicios extends React.Component {
 				      <h1 className="jumbotron-heading">Productos y Servicios </h1>
 					  <hr className="featurette-divider" />
 				      <h2 className="lead text-muted">
-				     	Estos son nuestros productos y servicios
+				     	En esencia y bienestar contamos con diferentes productos y servicios pensando en ti
 				      </h2>				      
 				    </div>
 				</section>
@@ -35,10 +35,10 @@ class Servicios extends React.Component {
  
 				      <div className="row">
 				        <div className="col-md-4">
-				          <div className="card mb-4 shadow-sm"><br></br>
+				          <div className="card mb-4 shadow-sm" style={{backgroundColor: '#F4DEF8'}} ><br></br>
 						  <img className="bd-placeholder-img rounded-circle mx-auto d-block "  src={process.env.PUBLIC_URL + 'images/chakras.jpg'} width="140" height="140">
 							</img><br></br>
-							<h4 className="text-center">Vela artesanal:<br></br> Intención 7 Chakras</h4>
+							<h4 className="text-center">Vela artesanal:<br></br> 7 Chakras</h4>
 				            <div className="card-body">
 				              <p className="card-text text-justify font-italic">Tendemos a pensar que la paz interna es una utopía y algo
 							   que consiguen ciertas personas con esa capacidad innata, que es algo fuera de nuestro 
@@ -53,7 +53,7 @@ class Servicios extends React.Component {
 				          </div>
 				        </div>
 						<div className="col-md-4">
-				          <div className="card mb-4 shadow-sm"><br></br>
+				          <div className="card mb-4 shadow-sm" style={{backgroundColor: '#F4DEF8'}}><br></br>
 						  <img className="bd-placeholder-img rounded-circle mx-auto d-block "  src={process.env.PUBLIC_URL + 'images/arcangel.jpg'} width="140" height="140">
 							</img><br></br>
 							<h4 className="text-center">Vela artesanal: Arcángeles</h4>
@@ -76,7 +76,7 @@ class Servicios extends React.Component {
 				          </div>
 				        </div>
 						<div className="col-md-4">
-				          <div className="card mb-4 shadow-sm"><br></br>
+				          <div className="card mb-4 shadow-sm" style={{backgroundColor: '#F4DEF8'}}><br></br>
 						  <img className="bd-placeholder-img rounded-circle mx-auto d-block "  src={process.env.PUBLIC_URL + 'images/kathegel.jpeg'} width="140" height="140">
 							</img><br></br>
 							<h4 className="text-center">Vela artesanal: Gel</h4>
@@ -94,7 +94,7 @@ class Servicios extends React.Component {
 				          </div>
 				        </div>
 						<div className="col-md-4">
-				          <div className="card mb-4 shadow-sm"><br></br>
+				          <div className="card mb-4 shadow-sm" style={{backgroundColor: '#F4DEF8'}}><br></br>
 						  <img className="bd-placeholder-img rounded-circle mx-auto d-block "  src={process.env.PUBLIC_URL + 'images/esenciaserv.jpg'} width="140" height="140">
 							</img><br></br>
 							<h4 className="text-center">Aceites esenciales</h4>
@@ -113,7 +113,7 @@ class Servicios extends React.Component {
 				          </div>
 				        </div>
 						<div className="col-md-4">
-				          <div className="card mb-4 shadow-sm"><br></br>
+				          <div className="card mb-4 shadow-sm" style={{backgroundColor: '#F4DEF8'}}><br></br>
 						  <img className="bd-placeholder-img rounded-circle mx-auto d-block "  src={process.env.PUBLIC_URL + 'images/sales.jpg'} width="140" height="140">
 							</img><br></br>
 							<h4 className="text-center">Sales exfoliantes</h4>
@@ -132,7 +132,7 @@ class Servicios extends React.Component {
 				          </div>
 				        </div>
 						<div className="col-md-4">
-				          <div className="card mb-4 shadow-sm"><br></br>
+				          <div className="card mb-4 shadow-sm" style={{backgroundColor: '#F4DEF8'}}><br></br>
 						  <img className="bd-placeholder-img rounded-circle mx-auto d-block "  src={process.env.PUBLIC_URL + 'images/taller2.jpg'} width="140" height="140">
 							</img><br></br>
 							<h4 className="text-center">Talleres</h4>

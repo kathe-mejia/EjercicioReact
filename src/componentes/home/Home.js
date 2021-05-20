@@ -22,7 +22,7 @@ class Home extends React.Component {
 			<main role="main" className="flex-shrink-0 mt-5">
 
 		        <div className="container">
-	
+					<br></br>
 		  	  		<Slider />
 					<hr className="featurette-divider" />
 
@@ -42,7 +42,7 @@ class Home extends React.Component {
 		        </div>
 
 	  		</main>
-			  <hr className="featurette-divider" />
+			  <hr className="featurette-divider " />
 	  		<Footer/>
 			
 

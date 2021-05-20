@@ -5,6 +5,8 @@ import Jumbotron from './jumbotron/Jumbotron'; // Este Componente lo crearé a c
 import Detalles from './detalles/Detalles'; // Este Componente lo crearé a continuación 
 import Footer from '../footer/Footer';
 import Contenedornosotros from './contenedornosotros/Contenedornosotros';
+import Contenedor2 from './contenedornosotros/Contenedor2';
+
 import Divnosotros from './divnosotros/Divnosotros';
  
  
@@ -25,6 +27,8 @@ class Nosotros extends React.Component {
 				
 				<Detalles /> 
 				<Contenedornosotros/>
+				<hr className="featurette-divider" />
+				<Contenedor2/>
 				
  
 	  		</main>
