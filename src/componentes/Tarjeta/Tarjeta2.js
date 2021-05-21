@@ -3,7 +3,9 @@ import React from 'react';
 import Menu from '../menu/Menu';
  
 import Footer from '../footer/Footer';
-import Tarjeta from '../Tarjeta/Tarjeta';
+import Tarjeta from './Tarjeta';
+import HomeTarjeta from './HomeTarjeta'; 
+
 
  
 class Tarjeta2 extends React.Component {
@@ -17,7 +19,8 @@ class Tarjeta2 extends React.Component {
 			<Menu />
 
 			<main role="main" className="flex-shrink-0 mt-5">
-            <Tarjeta/>
+	
+            <HomeTarjeta/>
 		        
 				
 

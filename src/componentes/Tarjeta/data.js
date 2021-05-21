@@ -22,7 +22,19 @@ export default [
       }
     },
    {
-      nombre: 'Sesión individual de Reiki',
+      nombre: 'Sesión de Reiki',
+      descripcion: 'Equilibra cuerpo y mente',
+      precio:'$80.000',
+      duracion: '1.5 horas',
+      lugar: 'Medellín -Ant.',
+      notas: 'Pide tu cita ',
+          adicional: {
+          link: 'https://www.google.com.co'
+      }
+    },
+
+    {
+      nombre: 'Auxiliar',
       descripcion: 'Equilibra cuerpo y mente',
       precio:'$80.000',
       duracion: '1.5 horas',
@@ -32,6 +44,7 @@ export default [
           link: 'https://www.google.com.co'
       }
     }
+ 
   
   
   ]

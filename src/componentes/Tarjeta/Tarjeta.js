@@ -1,5 +1,8 @@
 import React from 'react';
-import './Tarjeta.css'
+import './Tarjeta.css';
+import HomeTarjeta from './HomeTarjeta'; 
+
+
 
 
 
@@ -16,14 +19,14 @@ export default function Tarjeta({
 }) {
   return (
     <div className="tarjeta-wrapper">
-      <h2>{nombre}</h2>
-      <h3>{descripcion}</h3>
-      <h4>{precio}kg</h4>
-       <h4>{duracion}kg</h4>
-	   <h4>{lugar}kg</h4>
-	   <h4>{notas}kg</h4>
+      <h4>{nombre}</h4>
+      <h7>{descripcion}</h7>
+      <p>{precio}.</p>
+       <p>{duracion}.</p>
+	   <p>{lugar}..</p>
+	   <p>{notas}..</p>
 	  
-    <button onClick={() => showAdditional(adicional)}>Inscribete aquí</button>
+    <button className= "btn btn-outline-info" onClick={() => showAdditional(adicional)} >Inscribete aquí</button>
     </div>
   );
 }
