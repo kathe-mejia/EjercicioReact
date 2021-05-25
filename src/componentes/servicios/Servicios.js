@@ -21,8 +21,8 @@ class Servicios extends React.Component {
 				    <div className="container">
 					<hr className="featurette-divider" />
 					<hr className="featurette-divider" />
-					<i class="fas fa-praying-hands"></i>
-				      <h1 className="jumbotron-heading">Productos y Servicios </h1>
+					
+				      <h1 className="jumbotron-heading"> <i class="fas fa-spa"></i>&nbsp;Productos y Servicios <i class="fas fa-spa"></i> </h1>
 					  <hr className="featurette-divider" />
 				      <h2 className="lead text-muted">
 				     	En esencia y bienestar contamos con diferentes productos y servicios pensando en ti

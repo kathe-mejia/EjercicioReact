@@ -1,8 +1,10 @@
 .tarjeta-wrapper {
     border: solid black 1px;
-    margin: 10px;
+    border-radius: 30px;
+    margin: 15px;
     padding: 10px;
     width: 280px;
+    background-color: #F4DEF8;
 }
 
 .tarjeta-wrapper button {

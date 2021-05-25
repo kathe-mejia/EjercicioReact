@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tarjeta.css';
-import HomeTarjeta from './HomeTarjeta'; 
+
 
 
 
@@ -8,25 +8,28 @@ import HomeTarjeta from './HomeTarjeta';
 
 
 export default function Tarjeta({
-  adicional,
+ 
   precio,
   nombre,
   descripcion,
-  showAdditional,
   lugar,
   duracion,
   notas
 }) {
   return (
     <div className="tarjeta-wrapper">
-      <h4>{nombre}</h4>
-      <h7>{descripcion}</h7>
-      <p>{precio}.</p>
-       <p>{duracion}.</p>
-	   <p>{lugar}..</p>
-	   <p>{notas}..</p>
+      <br></br>
+      <h4 className="text-center">{nombre}</h4>
+      <br></br>
+      <h7 className="text-center font-italic">{descripcion}</h7>
+      <br></br>
+      <br></br>
+      <p className="text-center font-italic">Precio: {precio} COP</p>
+       <p className="text-center font-italic">Duración: {duracion}.</p>
+	   <p className="text-center font-italic">Lugar: {lugar}</p>
+	   <p className="text-center font-italic"> {notas}</p>
 	  
-    <button className= "btn btn-outline-info" onClick={() => showAdditional(adicional)} >Inscribete aquí</button>
+    <p className="text-center"><a className= "btn btn-dark" href="https://www.google.com.co" target="_blank" role="button" >Registro aquí</a></p>
     </div>
   );
 }

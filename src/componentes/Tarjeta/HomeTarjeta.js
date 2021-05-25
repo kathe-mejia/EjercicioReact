@@ -13,13 +13,16 @@ function showAdditional(adicional) {
   function HomeTarjeta() {
     return (
       <div className="wrapper">
-         
-        <h1>Precios nuestros productos y servicios</h1>
+  
+        <h1><i class="fab fa-envira"></i>Te presentamos nuestro principales servicios <i class="fab fa-envira"></i> </h1>
+ 
+        <br></br>
+        <br></br>
         <br></br>
         <br></br>
         {data.map(producto => (
-          <Tarjeta adicional={producto.adicional}
-            precio={producto.precio} key={producto.nombre} nombre={producto.nombre} descripcion={producto.descripcion} showAdditional={showAdditional}
+          <Tarjeta 
+            precio={producto.precio} key={producto.nombre} nombre={producto.nombre} descripcion={producto.descripcion} 
             lugar={producto.lugar} duracion={producto.duracion} notas={producto.notas}/>
         ))}
       </div>

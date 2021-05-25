@@ -21,11 +21,11 @@ class Contacto extends React.Component {
 				<div className="container">
 				<hr className="featurette-divider" />	
 				<br></br>
-					<h1 className="mb-5">Contáctanos</h1>
-					<h3 className="font-italic">Eres muy importante para nosotros...<br></br>
+					<h1 className="mb-5"> <i class="fas fa-id-badge"></i>&nbsp;Contáctanos</h1>
+					<h4 className="font-italic">Eres muy importante para nosotros...<br></br>
 					Nuestra comunidad 
 						puede seguir creciendo
-					</h3>
+					</h4>
 					<br></br>
             		<div className="row">
  

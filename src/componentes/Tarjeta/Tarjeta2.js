@@ -19,7 +19,7 @@ class Tarjeta2 extends React.Component {
 			<Menu />
 
 			<main role="main" className="flex-shrink-0 mt-5">
-	
+			<br></br>
             <HomeTarjeta/>
 		        
 				

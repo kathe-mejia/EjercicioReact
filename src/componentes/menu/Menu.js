@@ -9,8 +9,9 @@ class Menu extends React.Component {
   	return (
 
   		<nav className="navbar navbar-expand-md navbar-dark fixed-top "style={{backgroundColor: '#AED6F1'}}>
-			  <i class="fas fa-spa"></i>
-		    <NavLink to="/" className="navbar-brand text-dark"> &nbsp;Esencia y Bienestar Plus!</NavLink>
+			  
+			 
+		    <NavLink to="/" className="navbar-brand text-dark"> <i class="fas fa-spa"></i> &nbsp;Esencia y Bienestar Plus!</NavLink>
 		    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 		     	<span className="navbar-toggler-icon"></span>
 		    </button>
@@ -27,7 +28,7 @@ class Menu extends React.Component {
 			          	<NavLink to="/servicios" className="nav-link text-dark">Servicios</NavLink>
 			        </li>
 					<li className="nav-item">
-			          	<NavLink to="/Tarjeta" className="nav-link text-dark">Combitos</NavLink>
+			          	<NavLink to="/Tarjeta" className="nav-link text-dark">Talleres</NavLink>
 			        </li>
 			        <li className="nav-item">
 			          	<NavLink to="/contacto" className="nav-link text-dark">Contacto </NavLink>
