@@ -18,7 +18,7 @@ class Contenedornosotros extends React.Component {
 			
 					<h1>Sabías qué...</h1>
 					<br/>
-					<p class="text-justify font-italic">Las esencias o aceites esenciales son
+					<p class="text-justify font-italic p-2">Las esencias o aceites esenciales son
 					 una mezcla compleja de sustancias aromáticas responsable de las fragancias 
 					 de las flores. Poseen numerosas acciones farmacológicas, por lo que constituyen 
 					 la base de la aromaterapia, pero además son ampliamente utilizados en perfumería

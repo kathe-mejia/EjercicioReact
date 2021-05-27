@@ -16,7 +16,7 @@ class Slider extends React.Component {
 		    <div className="carousel-inner" >
 		        <div className="carousel-item active">
 					{/*Cambiar imagenes, convertir la fuente en un objeto jsx*/}
-		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/slider1.jpg'} width="1150" height="80" />
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/slider1.jpg'} width="1150" height="600"   />
 		            <div className="elementos">
 					<hr className="featurette-divider" />
 		               

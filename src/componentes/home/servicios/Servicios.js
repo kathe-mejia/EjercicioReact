@@ -11,7 +11,7 @@ class Servicios extends React.Component {
  
             <div className="row">
  
-                <div className="col-lg-4">
+                <div className="col-lg-4 p-5">
                 <img className="bd-placeholder-img rounded-circle mx-auto d-block" src={process.env.PUBLIC_URL + 'images/velaserv3.jpg'} width="140" height="140">
                 </img>
 
@@ -21,7 +21,7 @@ class Servicios extends React.Component {
                     {/* <p><a className="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p> */}
                 </div>
         
-                <div className="col-lg-4">
+                <div className="col-lg-4 p-5">
                 <img className="bd-placeholder-img rounded-circle mx-auto d-block" src={process.env.PUBLIC_URL + 'images/esencia1.jpg'} width="140" height="140">
                  </img>
                 <h2>Esencias</h2>
@@ -31,7 +31,7 @@ class Servicios extends React.Component {
                    {/* <p><a className="btn btn-secondary" href="#" role="button">Leer más &raquo;</a></p> */}
                 </div>
  
-                <div className="col-lg-4">
+                <div className="col-lg-4 p-5">
                 <img className="bd-placeholder-img rounded-circle mx-auto d-block" src={process.env.PUBLIC_URL + 'images/taller1.jpg'} width="140" height="140">
                 </img>
                     <h2>Talleres</h2>

@@ -14,11 +14,11 @@ class Contenedor2 extends React.Component {
 			<img className="bd-placeholder-img rounded" src={process.env.PUBLIC_URL + 'images/reiki.jpg'} width="300" height="300">
                 </img>
 				</div>
-				<div class ="p-2 flex-fill">
+				<div class ="p-2 flex-fill ">
 			
 					<h1>¿Sabes que es Reiki?</h1>
 					<br/>
-					<p class="text-justify font-italic">Reiki es una técnica de sanación energética japonesa.
+					<p class="text-justify font-italic p-2"  >Reiki es una técnica de sanación energética japonesa.
                      La forma predominante de reiki que se practica en todo el mundo hoy en día, también
                       conocida como Usui reiki, fue creada por el Dr. Mikao Usui a principios del siglo XX. 
                       Es un enfoque de salud complementario o alternativo. Reiki no cura directamente enfermedades
