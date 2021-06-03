@@ -14,7 +14,7 @@ import Servicios from './componentes/servicios/Servicios';
 import Tarjeta from './componentes/Tarjeta/Tarjeta2';
 import Contacto from './componentes/contacto/Contacto';
  
- 
+
 // Configuración de la rutas del Sitio Web 
 ReactDOM.render(
     <Router>

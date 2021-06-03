@@ -5,7 +5,7 @@ export default [
       precio:'$180.000',
       duracion: '5 horas',
       lugar: 'Medellín -Ant.',
-      notas: 'Incluye material y refrigerio. El próximo taller se llevará a cabo el 29 de Mayo de 2021',
+      notas: 'Incluye material y refrigerio. El próximo taller se llevará a cabo el 5 de Junio de 2021',
 
     },
     {
@@ -14,7 +14,7 @@ export default [
       precio:'$140.000',
       duracion: '3 horas',
       lugar: 'Medellín -Ant.',
-      notas: 'Incluye material y refrigerio. El próximo taller se llevará a cabo el 28 de Mayo de 2021',
+      notas: 'Incluye material y refrigerio. El próximo taller se llevará a cabo el 6 de Junio de 2021',
 
     },
    {
@@ -27,12 +27,12 @@ export default [
     },
 
     {
-      nombre: 'Emprendiento',
+      nombre: 'Emprendimiento',
       descripcion: 'Te contamos como potenciar tus habilidades y recursos para que puedas emprender',
       precio:'$200.000',
       duracion: '6 horas',
       lugar: 'Medellín -Ant.',
-      notas: 'Incluye material y refrigerio. El próximo taller se llevar a acabo el 5 de Junio de 2021',
+      notas: 'Incluye material y refrigerio. El próximo taller se llevar a acabo el 12 de Junio de 2021',
  
     }
  

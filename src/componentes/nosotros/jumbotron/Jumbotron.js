@@ -8,8 +8,9 @@ class Jumbotron extends React.Component {
  
         <div className="jumbotron">
             <div className="container">
-                <h1 className="display-3">Nosotros </h1>
+                <h1 className="display-3 font-weight-bold"><i class="fas fa-users"></i> Nosotros </h1>
                 <p class="font-italic">
+                <br/>
                     Somos una marca 100% dedicada al cuidado personal de cuerpo y mente...
                     <br/>
                     Nuestra especialidad es la busqueda del equilibrio a través de aromas 
@@ -19,6 +20,7 @@ class Jumbotron extends React.Component {
                     además puedes formarte en nuestros talleres para tener en constante armonia
                     los espacios de tu hogar para el equilibro de cuerpo y mente
                 </p>
+                <br/>
                 <p><a className="btn btn-primary btn-lg" href="https://esenciadelbienestar.com/blog"target="_blank" role="button">Visitar Web</a></p>
             </div>
         </div>

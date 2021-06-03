@@ -27,7 +27,7 @@ class Tarjeta2 extends React.Component {
 		
 
 	  		</main>
-			  <hr className="featurette-divider " />
+	
 	  		<Footer/>
 			
 

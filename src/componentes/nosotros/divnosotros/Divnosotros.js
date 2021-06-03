@@ -12,7 +12,7 @@ class Divnosotros extends React.Component {
 				<div className ="p-2 flex-fill">
 				<br/>
 				<br/>
-					<h1>Sabías qué...</h1>
+					<h1><i class="fas fa-brain"></i>&nbsp; Sabías qué...</h1>
 					<br/>
 					<p className="text-justify font-italic">La aromaterapia es una técnica terapéutica utilizada en la 
 						medicina alternativa. Mediante el aroma conseguiremos relajarnos,

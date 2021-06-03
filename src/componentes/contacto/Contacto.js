@@ -45,7 +45,7 @@ class Contacto extends React.Component {
 				</div>	
  
 	  		</main>
-			  <hr className="featurette-divider" />
+			
 	  		<Footer />
  
 	  		</>

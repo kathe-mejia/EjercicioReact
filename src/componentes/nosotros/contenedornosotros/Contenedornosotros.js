@@ -16,7 +16,7 @@ class Contenedornosotros extends React.Component {
 				</div>
 				<div class ="p-2 flex-fill">
 			
-					<h1>Sabías qué...</h1>
+					<h1><i class="fas fa-book-reader"></i>&nbsp;Sabías qué...</h1>
 					<br/>
 					<p class="text-justify font-italic p-2">Las esencias o aceites esenciales son
 					 una mezcla compleja de sustancias aromáticas responsable de las fragancias 

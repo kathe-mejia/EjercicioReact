@@ -155,7 +155,7 @@ class Servicios extends React.Component {
 				</div>
  
 	  		</main>
-			  <hr className="featurette-divider" />
+			
 	  		<Footer />
  
 	  		</>

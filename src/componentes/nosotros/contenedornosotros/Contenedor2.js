@@ -16,7 +16,7 @@ class Contenedor2 extends React.Component {
 				</div>
 				<div class ="p-2 flex-fill ">
 			
-					<h1>¿Sabes que es Reiki?</h1>
+					<h1><i class="fas fa-glasses"></i>&nbsp;¿Sabes que es Reiki?</h1>
 					<br/>
 					<p class="text-justify font-italic p-2"  >Reiki es una técnica de sanación energética japonesa.
                      La forma predominante de reiki que se practica en todo el mundo hoy en día, también

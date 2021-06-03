@@ -42,7 +42,7 @@ class Home extends React.Component {
 		        </div>
 
 	  		</main>
-			  <hr className="featurette-divider " />
+		
 	  		<Footer/>
 			
 
