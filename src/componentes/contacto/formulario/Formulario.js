@@ -1,12 +1,15 @@
 import React from 'react';
 import '../../../App.css';
- 
+
+
+
+
 class Formulario extends React.Component {
  
   render() {
  
     return (
- 
+      
         <form className="mb-5">
  
           <div className="form-group">
@@ -30,7 +33,9 @@ class Formulario extends React.Component {
           </div>
  
           <button type="submit" className="btn btn-primary">Enviar</button>
- 
+
+
+   
         </form>
  
     )

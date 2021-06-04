@@ -3,10 +3,6 @@ import './Tarjeta.css';
 
 
 
-
-
-
-
 export default function Tarjeta({
  
   precio,
@@ -29,7 +25,7 @@ export default function Tarjeta({
 	   <p className="text-center font-italic">Lugar: {lugar}</p>
 	   <p className="text-center font-italic"> {notas}</p>
 	  
-    <p className="text-center"><a className= "btn btn-dark" href="https://www.google.com.co" target="_blank" role="button" >Registro aquí</a></p>
+    <p className="text-center"><a className= "btn btn-dark" href="https://forms.gle/yqbTs4z8Q8iCddwT8" target="_blank" role="button" >Registro aquí</a></p>
     </div>
   );
 }

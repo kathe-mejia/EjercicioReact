@@ -10,10 +10,7 @@ class Contenedor2 extends React.Component {
 		return(
 			<div class ="container mt-3">
 			<div class ="d-flex mb-3">
-			<div class ="p-2 flex-fill">
-			<img className="bd-placeholder-img rounded" src={process.env.PUBLIC_URL + 'images/reiki.jpg'} width="300" height="300">
-                </img>
-				</div>
+			
 				<div class ="p-2 flex-fill ">
 			
 					<h1><i class="fas fa-glasses"></i>&nbsp;¿Sabes que es Reiki?</h1>
@@ -32,8 +29,12 @@ class Contenedor2 extends React.Component {
 					
 					
 					</div>	
-					</div>
-					</div>
+					<div class ="p-2 flex-fill">
+						<img className="bd-placeholder-img rounded" src={process.env.PUBLIC_URL + 'images/reiki.jpg'} width="300" height="300">
+						</img>	
+						</div>
+				</div>
+			</div>
 
 		)
 

@@ -6,7 +6,7 @@ class Jumbotron extends React.Component {
  
     return (
  
-        <div className="jumbotron">
+        <div className="jumbotron " style={{background: 'linear-gradient(#2AE947, #F09FE5)'}}>
             <div className="container">
                 <h1 className="display-3 font-weight-bold"><i class="fas fa-users"></i> Nosotros </h1>
                 <p class="font-italic">
